@@ -32,5 +32,70 @@
     margin-left: 300px;
     margin-top: 32px;
     font-size: 20px;
-
+}
+/* reason styles started here */
+.reason{
+    height: 1200px;
+    max-width: 1140px;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.02);
+    margin: 0 auto;
+    margin-top: 74px;
+}
+.reason-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 80px;
+    
+}
+.reason-title{
+    font-size: 32px;
+    font-weight: 800;
+    gap: 24px;
+}
+.reason-description{
+    font-size: 16px;
+    font-weight: 400;
+}
+.reason-1{
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    width: 946px;
+    display: flex;
+    justify-content: center;
+    margin-left: 97px;
+    margin-top: 48px;
+}
+.reason-1-img{
+    margin-left: 108px;
+}
+.reason-1-title{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+}
+.reason-1-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+}
+.reason-1-btn{
+    width: 150px;
+    height: 48px;
+    padding: 12px 20px 12px 20px;
+    font-size: 20px;
+    background-color: white;
+    margin-top: 32px;
+}
+.reason-2-img{
+    padding-left: 48px;
+}
+.reason-2{
+    border-radius: 16px;
+    width: 946px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    margin: 32px 97px 32px 48px;
 }
