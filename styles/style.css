@@ -33,7 +33,7 @@
     margin-top: 32px;
     font-size: 20px;
 }
-/* reason styles started here */
+/* reason styles & shared styles started here */
 .reason{
     height: 1200px;
     max-width: 1140px;
@@ -98,4 +98,32 @@
     justify-content: center;
     background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
     margin: 32px 97px 32px 48px;
+}
+/* inspiration styles started here */
+.inspiration-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+.inspiration-video{
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+margin: 48px 0px;
+padding: 32px;
+
+}
+.inspiration-title{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin-top: 80px;
+}
+.inspiration-description{
+    font-size: 16px;
+    font-weight: 400;
+}
+iframe{
+    border-radius: 16px;
 }
