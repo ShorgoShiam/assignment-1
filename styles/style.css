@@ -127,3 +127,53 @@ padding: 32px;
 iframe{
     border-radius: 16px;
 }
+/* target styles started here */
+.target{
+    max-width: 1140px;
+   margin: 0 auto;
+   height: 460px;
+    
+}
+.skills{
+    display: flex;
+    gap: 24px;
+}
+.target-title{
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+.target-description{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.skill-1{
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+    padding: 40px;
+}
+.skill-2{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+}
+.skill-3{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+}
+.skill-title{
+    font-size: 24px;
+    font-weight: 800;
+}
+.skill-description{
+    font-size: 16px;
+    font-weight: 400;
+}
+.learn-more{
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
