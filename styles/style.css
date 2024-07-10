@@ -1,0 +1,36 @@
+
+
+/* banner styles started here */
+.banner{
+    background-image: url(../assets/Hero-bg.png);
+    height: 652px;
+    margin-top: 131px;
+    display: flex;
+    justify-content: center;
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.banner-title{
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: -24px;
+}
+.banner-description{
+    font-size: 16px;
+    font-weight: 400;
+}
+.banner-btn{
+    height: 66px;
+    width: 208px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    margin-left: 300px;
+    margin-top: 32px;
+    font-size: 20px;
+
+}
