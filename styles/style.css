@@ -20,7 +20,7 @@
     margin-bottom: -24px;
 }
 .banner-description{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
 }
 .banner-btn{
@@ -29,7 +29,7 @@
     border-radius: 8px;
     background-color: black;
     color: white;
-    margin-left: 300px;
+    margin-left: 350px;
     margin-top: 32px;
     font-size: 20px;
 }
@@ -226,3 +226,31 @@ iframe{
     margin-left: 16px;
     border: none;
 }
+/* footer style started from here */
+footer{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: 80px;
+    gap: 600px;
+}
+.footer-title{
+    font-size: 20px;
+    font-weight: 600; 
+}
+.fb-icon:hover{
+    background-color: lightblue;
+}
+.github-icon:hover{
+    background-color: lightgray;
+}
+.linkedin-icon:hover{
+    background-color: lightblue;
+}
+button:hover{
+    background-color: darkblue;
+}
+
